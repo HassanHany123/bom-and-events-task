@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flash Sale Countdown</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+    }
+    #countdown {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    #message {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        display: none; /* عشان اخفي الماسج اول اما البراوزر يفتح */
+    }
+</style>
+</head>
+<body>
+    <h1>Flash Sale Countdown</h1>
+    <div id="countdown">Countdown: <span id="timer">10</span> seconds</div>
+    <div id="message">Flash sale is live! <a id="saleLink" href="#">Click here</a> to view the sale.</div>
+
+    <script src="countdown.js"></script>
+</body>
+</html>
